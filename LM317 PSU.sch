@@ -12318,7 +12318,6 @@ DIN A4, landscape with location and doc. field</description>
 <part name="TR2" library="trafo" deviceset="EI42-2" device="" value="230:35V"/>
 <part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="SINK" value="7815"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="V234/12" value="1k - 5W"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="V234/12" value="1R - 5W"/>
 </parts>
 <sheets>
 <sheet>
@@ -12352,10 +12351,6 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="TR2" gate="1" x="58.42" y="83.82"/>
 <instance part="IC1" gate="G$1" x="147.32" y="134.62"/>
 <instance part="R1" gate="G$1" x="96.52" y="76.2" rot="R90"/>
-<instance part="R4" gate="G$1" x="205.74" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="204.2414" y="110.49" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="203.962" y="115.57" size="1.778" layer="96" rot="R90"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -12438,10 +12433,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="226.06" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="88.9" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="119.38" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="121.92" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="121.92" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -12593,12 +12584,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="68.58" y1="83.82" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="TR2" gate="1" pin="4"/>
 <wire x1="68.58" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="101.6" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

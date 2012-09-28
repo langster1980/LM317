@@ -12293,7 +12293,6 @@ DIN A4, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun" deviceset="V_REG_317" device="SINK"/>
 <part name="B1" library="rectifier" deviceset="GBPC80X" device="" value="5A BR"/>
 <part name="C1" library="adafruit" deviceset="CPOL-US" device="E7.5-16" value="4700uF"/>
 <part name="C2" library="adafruit" deviceset="C-US" device="025-040X050" value="100nF"/>
@@ -12325,7 +12324,6 @@ DIN A4, landscape with location and doc. field</description>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="134.62" y="91.44"/>
 <instance part="B1" gate="1" x="68.58" y="83.82"/>
 <instance part="C1" gate="G$1" x="91.44" y="78.74"/>
 <instance part="C2" gate="G$1" x="104.14" y="78.74"/>
@@ -12402,7 +12400,6 @@ DIN A4, landscape with location and doc. field</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="88.9" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="147.32" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="154.94" y1="86.36" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
@@ -12452,7 +12449,6 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="154.94" y="76.2"/>
 <pinref part="U$1" gate="G$1" pin="S"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<pinref part="U1" gate="G$1" pin="ADJ"/>
 <wire x1="134.62" y1="73.66" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="76.2" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
@@ -12478,7 +12474,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="91.44" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="127" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
 <junction x="91.44" y="91.44"/>
 <pinref part="C2" gate="G$1" pin="1"/>
