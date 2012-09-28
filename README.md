@@ -1,4 +1,6 @@
 LM317
 =====
 
-LM317-Variable-Power-Supply
+Released by Alexander Lang under the creative commons share alike licence - 01-09-2012
+
+Eagle design files for the LM317 Variable power supply.
